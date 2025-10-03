@@ -6,11 +6,11 @@ export const dbDatasourceOptions: DataSourceOptions = {
     // TODO: replace with your database configuration in the fields bellow:
        //localhost 127.0.0.1
     type: "mysql",
-    host: "127.0.0.1", 
+    host: "mysql://root:oTsDpWBniRbAfomXFoKJxvCxGLPUtqCC@metro.proxy.rlwy.net:26847/railway",
     port: 3306,
-    username: "chat_user",
-    password: "chat_password",
-    database: "chat_app",
+    username: "root",
+    password: "oTsDpWBniRbAfomXFoKJxvCxGLPUtqCC",
+    database: "railway",
 
     // No need to change this fields bellow
     synchronize: true,
